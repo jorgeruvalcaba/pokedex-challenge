@@ -16,7 +16,7 @@
     "test:coverage": "jest --coverage"
   },
   "dependencies": {
-    "autoprefixer": "^10.2.4",
+    "autoprefixer": "^9",
     "axios": "^0.21.1",
     "next": "10.0.6",
     "postcss": "^7",

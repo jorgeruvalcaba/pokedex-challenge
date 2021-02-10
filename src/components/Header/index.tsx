@@ -11,10 +11,8 @@ interface HeaderProps {
 }
 
 const Header = ({ onChange, searchValue, onClick, pokemon }: HeaderProps) => {
-  const router = useRouter()
-
   return (
-    <header className="text-gray-100 bg-gray-900 shadow w-full sticky top-0">
+    <header className="text-gray-100 z-50 bg-gray-900 shadow w-full sticky top-0">
       <div className="container mx-auto flex p-5 items-center">
         <nav className="flex w-1/5 items-center">
           <Link href="/">
