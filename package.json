@@ -2,6 +2,11 @@
   "name": "pokedex-challenge",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Jorge Ruvalcaba",
+    "email": "jorgeruvalcabav@gmail.com",
+    "url": "http://jorgeruvalcaba.dev/"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
