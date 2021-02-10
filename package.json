@@ -19,13 +19,11 @@
     "autoprefixer": "^10.2.4",
     "axios": "^0.21.1",
     "next": "10.0.6",
-    "postcss": "^8.2.5",
-    "postcss-flexbugs-fixes": "^5.0.2",
-    "postcss-preset-env": "^6.7.0",
+    "postcss": "^7",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "swr": "^0.4.2",
-    "tailwindcss": "^2.0.3"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   },
   "devDependencies": {
     "@testing-library/dom": "^7.29.4",
