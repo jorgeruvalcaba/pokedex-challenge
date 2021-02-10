@@ -14,4 +14,4 @@ To check the project on local, just open [http://localhost:3000](http://localhos
 
 ## See it on the web
 
-You can see this project alive on [Vercel](hhttps://pokedex-challenge-v2.vercel.app/)
+You can see this project alive on [Vercel](https://pokedex-challenge-v2.vercel.app/)
