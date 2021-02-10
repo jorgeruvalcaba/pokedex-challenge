@@ -29,8 +29,8 @@ export default function Pokemon({ pokemon }) {
       <h1 className="text-4xl mb-2 text-white text-center capitalize">
         {pokemon.name}
       </h1>
-      <div className="flex items-center justify-around">
-        <div className="flex flex-col">
+      <div className="flex flex-col items-center justify-around">
+        <div className="flex">
           <img
             className="mx-auto w-20 h-20"
             src={pokemon.image}
@@ -42,25 +42,24 @@ export default function Pokemon({ pokemon }) {
             alt={`${pokemon.name} Shiny`}
           />
         </div>
-        <div>
-          <p className="font-bold mr-2 text-white">
-            Pokedex number: {pokemon.id}
-          </p>
-          <p className="text-white">Name: {pokemon.name}</p>
-          <p className="text-white">Height: {pokemon.height}</p>
-          <p className="text-white">Weight: {pokemon.weight}</p>
-          <p className="flex text-white">
-            Types:
-            {pokemon?.types.map((typeItem, index) => (
-              <span
-                className="text-sm font-medium bg-green-100 py-1 px-2 rounded text-green-500 align-middle ml-2 mr-1"
-                key={`${typeItem.type.name}${index}`}
-              >
-                {typeItem.type.name}
-              </span>
-            ))}
-          </p>
-        </div>
+
+        <p className="font-bold mr-2 text-white mb-2">
+          Pokedex number: {pokemon.id}
+        </p>
+        <p className="text-white mb-2">Name: {pokemon.name}</p>
+        <p className="text-white mb-2">Height: {pokemon.height}</p>
+        <p className="text-white mb-2">Weight: {pokemon.weight}</p>
+        <p className="flex text-white mb-2">
+          Types:
+          {pokemon?.types.map((typeItem, index) => (
+            <span
+              className="text-sm font-medium bg-green-100 py-1 px-2 rounded text-green-500 align-middle ml-2 mr-1"
+              key={`${typeItem.type.name}${index}`}
+            >
+              {typeItem.type.name}
+            </span>
+          ))}
+        </p>
       </div>
 
       <p className="mt-10 text-center">
